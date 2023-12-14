@@ -14,8 +14,19 @@ export const metadata = {
   },
   description: 'Sou um apaixonado desenvolvedor front-end com um histórico comprovado de criar experiências web extraordinárias. Meu portfólio reflete meu compromisso com a inovação, usabilidade e design responsivo. Explore uma coleção diversificada de projetos que abrangem desde websites corporativos elegantes até aplicações web interativas.',
   openGraph: {
-    images: '/images/zOG-IMG.png'
-  }
+    title: 'Portfolio Lucas Alencar',
+    description: 'Venha ver um pouco sobre mim, também sobre os meus conhecimentos e projetos!',
+    url: 'https://www.lucasalencar.cloud',
+    siteName: 'Lucas Alencar',
+    images: [{
+      url: '/images/zOG-IMG.png',
+      width: 1800,
+      height: 1600,
+      alt: 'Thumbnail Portfolio'
+    }],
+    locale: 'pt-BR',
+    type: 'website',
+  },
 }
 
 const inter = Inter({
