@@ -12,6 +12,10 @@ export const metadata = {
     default: 'Home',
     template: '%s | LK'
   },
+  description: 'Sou um apaixonado desenvolvedor front-end com um histórico comprovado de criar experiências web extraordinárias. Meu portfólio reflete meu compromisso com a inovação, usabilidade e design responsivo. Explore uma coleção diversificada de projetos que abrangem desde websites corporativos elegantes até aplicações web interativas.',
+  openGraph: {
+    images: '/images/zOG-IMG.png'
+  }
 }
 
 const inter = Inter({
