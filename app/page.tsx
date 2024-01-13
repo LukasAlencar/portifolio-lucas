@@ -8,7 +8,7 @@ import { fetchHygraphQuery } from "./utils/fetch-hygraph-query";
 export const metadata = {
   title: 'Home'
 }
-
+ 
 const getPageData = (): Promise<HomePageData> => {
   const query = `
     query PageInfoQuery {
